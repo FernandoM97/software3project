@@ -129,13 +129,17 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
             try
             {
                 AlprResultsNet results = alpr.Recognize(imagenFiltrada);
-                //PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
-                //PictureBoxFILTRADO.Image = imagenFiltrada; // Proyecta las imagenes filtradas
+                PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
+                PictureBoxFILTRADO.Image = imagenFiltrada; // Proyecta las imagenes filtradas
                if (results.Plates.Count > 0)
                 {
+                    //MessageBox.Show("La placa reconocida es:" + results.Plates[0].BestPlate.Characters);
+                    txtCodigoPlaca.Text = results.Plates[0].BestPlate.Characters;
+                    txtCodigoPlaca.ForeColor = Color.LightGreen;
                     PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
                     PictureBoxFILTRADO.Image = imagenFiltrada;
                     FuenteDeVideo.Stop();
+                    return;
                 }
             }
             catch (Exception ex)
@@ -151,6 +155,7 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
             FuenteDeVideo.NewFrame += new NewFrameEventHandler(VideoNewFrame);
             FuenteDeVideo.Start();
             cbbCamaras.Visible = true;
+            
         }
         //Detiene la captura de la Fuente de video
         private void btnDetenerCaptura_Click(object sender, EventArgs e)
@@ -197,8 +202,13 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            FuenteDeVideo.Stop();
+            if (FuenteDeVideo.IsRunning)
+            {
+                FuenteDeVideo.Stop();
+            }
+                
             Application.Exit();
+           
         }
 
         public string Random()
