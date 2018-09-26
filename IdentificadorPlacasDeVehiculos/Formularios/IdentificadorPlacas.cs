@@ -5,6 +5,7 @@ using AForge.Video;
 using AForge.Video.DirectShow;
 using AForge.Vision.Motion;
 using IdentificadorPlacasDeVehiculos.Clases;
+using openalprnet;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -28,6 +29,9 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
 
         private FilterInfoCollection Dispositivos; // Todas las camaras
         private VideoCaptureDevice FuenteDeVideo; // La camara
+        string confPath = Application.StartupPath + "\\openalpr.conf";
+        string runtimePath = Application.StartupPath + "\\runtime_data\\";
+        AlprNet alpr;
 
 
         // inicializador valores de filtro
@@ -81,12 +85,17 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
             cbbCamaras.SelectedIndex = 0;
             PictureBoxORIGINAL.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBoxFILTRADO.SizeMode = PictureBoxSizeMode.StretchImage;
+            alpr = new AlprNet("us", confPath, runtimePath);
         }
         
         private void VideoNewFrame(object sender, AForge.Video.NewFrameEventArgs eventArgs)
         {
             Bitmap imagenOriginal = (Bitmap)eventArgs.Frame.Clone(); // Imagen de la camara
             Bitmap imagenFiltrada = (Bitmap)eventArgs.Frame.Clone(); // Imagen filtrada
+             
+
+            alpr.DetectRegion = true;
+
 
             // Filtrado de color
             ColorFiltering colorFiltro = new ColorFiltering();
@@ -119,8 +128,15 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
             }
             try
             {
-                PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
-                PictureBoxFILTRADO.Image = imagenFiltrada; // Proyecta las imagenes filtradas
+                AlprResultsNet results = alpr.Recognize(imagenFiltrada);
+                //PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
+                //PictureBoxFILTRADO.Image = imagenFiltrada; // Proyecta las imagenes filtradas
+               if (results.Plates.Count > 0)
+                {
+                    PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
+                    PictureBoxFILTRADO.Image = imagenFiltrada;
+                    FuenteDeVideo.Stop();
+                }
             }
             catch (Exception ex)
             {
