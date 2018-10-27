@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -133,13 +134,20 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
                 PictureBoxFILTRADO.Image = imagenFiltrada; // Proyecta las imagenes filtradas
                if (results.Plates.Count > 0)
                 {
+                    
                     //MessageBox.Show("La placa reconocida es:" + results.Plates[0].BestPlate.Characters);
-                    txtCodigoPlaca.Text = results.Plates[0].BestPlate.Characters;
-                    txtCodigoPlaca.ForeColor = Color.LightGreen;
+                    string text = results.Plates[0].BestPlate.Characters;
                     PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
                     PictureBoxFILTRADO.Image = imagenFiltrada;
-                    FuenteDeVideo.Stop();
-                    return;
+                    if (text.Length == 6)
+                    {
+                        txtCodigoPlaca.Text = text;
+                        txtCodigoPlaca.ForeColor = Color.LightGreen;
+                        PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
+                        PictureBoxFILTRADO.Image = imagenFiltrada;
+                        detenerCaptura();
+                    }
+                    
                 }
             }
             catch (Exception ex)
@@ -151,16 +159,22 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             // Inicia la captura de imagenes de la camara y el Thread viideo_NewFrame
-            FuenteDeVideo = new VideoCaptureDevice(Dispositivos[cbbCamaras.SelectedIndex].MonikerString);
-            FuenteDeVideo.NewFrame += new NewFrameEventHandler(VideoNewFrame);
-            FuenteDeVideo.Start();
+
+            iniciarDeteccion();
+           
             cbbCamaras.Visible = true;
             
         }
         //Detiene la captura de la Fuente de video
         private void btnDetenerCaptura_Click(object sender, EventArgs e)
         {
-            FuenteDeVideo.Stop();
+            FuenteDeVideo.SignalToStop();
+        }
+
+        private void detenerCaptura()
+        {
+
+            FuenteDeVideo.SignalToStop();
         }
 
         private void btnIniciarDetenccion_Click(object sender, EventArgs e)
@@ -185,6 +199,7 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
             conectar.cargarImagenes(cbListaImagenes);
             txtCodigoPlaca.Text = Random();
             txtCodigoPlaca.Focus();
+
         }
 
         private void cbListaImagenes_SelectedIndexChanged(object sender, EventArgs e)
@@ -196,19 +211,17 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
             } 
             catch (Exception ex)
             { 
-                MessageBox.Show("Eroor "+ ex);
+                MessageBox.Show("Error "+ ex);
             }
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            if (FuenteDeVideo.IsRunning)
-            {
-                FuenteDeVideo.Stop();
-            }
-                
+            //foreach (Process proceso in Process.GetProcesses())
+            //{
+                    Process.GetCurrentProcess().Kill();
+            //}
             Application.Exit();
-           
         }
 
         public string Random()
@@ -217,6 +230,23 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
             int num = rnd.Next(0, 100);
             string cadena = Convert.ToString("A" + num);
             return cadena;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FuenteDeVideo.Start();
+        }
+
+        private void iniciarDeteccion()
+        {
+            FuenteDeVideo = new VideoCaptureDevice(Dispositivos[cbbCamaras.SelectedIndex].MonikerString);
+            FuenteDeVideo.NewFrame += new NewFrameEventHandler(VideoNewFrame);
+            FuenteDeVideo.Start();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

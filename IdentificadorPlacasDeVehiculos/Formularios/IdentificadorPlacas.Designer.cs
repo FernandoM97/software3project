@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IdentificadorPlacas));
             this.PictureBoxORIGINAL = new AForge.Controls.PictureBox();
             this.PictureBoxFILTRADO = new AForge.Controls.PictureBox();
             this.cbbCamaras = new System.Windows.Forms.ComboBox();
@@ -42,11 +41,13 @@
             this.panelControlesCamara = new System.Windows.Forms.Panel();
             this.lblControlesCamara = new System.Windows.Forms.Label();
             this.ControlesGuardarImagen = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.lblControlesGuardarImagen = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.panelSensorMovimiento = new System.Windows.Forms.Panel();
             this.btnSalir = new System.Windows.Forms.Button();
             this.lblControlesSensorMovimiento = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxORIGINAL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxFILTRADO)).BeginInit();
             this.panelControlesExaminarBD.SuspendLayout();
@@ -84,7 +85,7 @@
             this.cbbCamaras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbCamaras.ForeColor = System.Drawing.SystemColors.Info;
             this.cbbCamaras.FormattingEnabled = true;
-            this.cbbCamaras.Location = new System.Drawing.Point(3, 36);
+            this.cbbCamaras.Location = new System.Drawing.Point(3, 53);
             this.cbbCamaras.Name = "cbbCamaras";
             this.cbbCamaras.Size = new System.Drawing.Size(184, 24);
             this.cbbCamaras.TabIndex = 66;
@@ -92,12 +93,11 @@
             // 
             // btnDetenerCaptura
             // 
-            this.btnDetenerCaptura.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDetenerCaptura.BackgroundImage")));
             this.btnDetenerCaptura.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnDetenerCaptura.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetenerCaptura.Location = new System.Drawing.Point(107, 20);
+            this.btnDetenerCaptura.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetenerCaptura.Location = new System.Drawing.Point(216, 44);
             this.btnDetenerCaptura.Name = "btnDetenerCaptura";
-            this.btnDetenerCaptura.Size = new System.Drawing.Size(80, 40);
+            this.btnDetenerCaptura.Size = new System.Drawing.Size(105, 40);
             this.btnDetenerCaptura.TabIndex = 68;
             this.btnDetenerCaptura.Text = "Detener captura";
             this.btnDetenerCaptura.UseVisualStyleBackColor = true;
@@ -105,14 +105,13 @@
             // 
             // btnIniciarDetenccion
             // 
-            this.btnIniciarDetenccion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnIniciarDetenccion.BackgroundImage")));
             this.btnIniciarDetenccion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIniciarDetenccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarDetenccion.Location = new System.Drawing.Point(160, 47);
+            this.btnIniciarDetenccion.Location = new System.Drawing.Point(147, 47);
             this.btnIniciarDetenccion.Name = "btnIniciarDetenccion";
-            this.btnIniciarDetenccion.Size = new System.Drawing.Size(80, 40);
+            this.btnIniciarDetenccion.Size = new System.Drawing.Size(171, 40);
             this.btnIniciarDetenccion.TabIndex = 69;
-            this.btnIniciarDetenccion.Text = "Iniciar detenccion";
+            this.btnIniciarDetenccion.Text = "Iniciar detenccion movimiento\r\n";
             this.btnIniciarDetenccion.UseVisualStyleBackColor = true;
             this.btnIniciarDetenccion.Click += new System.EventHandler(this.btnIniciarDetenccion_Click);
             // 
@@ -136,7 +135,7 @@
             this.cbListaImagenes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbListaImagenes.ForeColor = System.Drawing.SystemColors.Info;
             this.cbListaImagenes.FormattingEnabled = true;
-            this.cbListaImagenes.Location = new System.Drawing.Point(3, 66);
+            this.cbListaImagenes.Location = new System.Drawing.Point(17, 63);
             this.cbListaImagenes.Name = "cbListaImagenes";
             this.cbListaImagenes.Size = new System.Drawing.Size(184, 24);
             this.cbListaImagenes.TabIndex = 72;
@@ -158,8 +157,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControlesExaminarBD.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelControlesExaminarBD.Controls.Add(this.label1);
             this.panelControlesExaminarBD.Controls.Add(this.lblControlesExaminarBD);
-            this.panelControlesExaminarBD.Controls.Add(this.btnDetenerCaptura);
             this.panelControlesExaminarBD.Controls.Add(this.cbListaImagenes);
             this.panelControlesExaminarBD.Location = new System.Drawing.Point(12, 496);
             this.panelControlesExaminarBD.Name = "panelControlesExaminarBD";
@@ -170,7 +169,7 @@
             // 
             this.lblControlesExaminarBD.AutoSize = true;
             this.lblControlesExaminarBD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblControlesExaminarBD.Location = new System.Drawing.Point(78, -5);
+            this.lblControlesExaminarBD.Location = new System.Drawing.Point(59, 1);
             this.lblControlesExaminarBD.Name = "lblControlesExaminarBD";
             this.lblControlesExaminarBD.Size = new System.Drawing.Size(188, 20);
             this.lblControlesExaminarBD.TabIndex = 77;
@@ -180,6 +179,7 @@
             // 
             this.panelControlesCamara.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelControlesCamara.Controls.Add(this.lblControlesCamara);
+            this.panelControlesCamara.Controls.Add(this.btnDetenerCaptura);
             this.panelControlesCamara.Controls.Add(this.cbbCamaras);
             this.panelControlesCamara.Location = new System.Drawing.Point(12, 379);
             this.panelControlesCamara.Name = "panelControlesCamara";
@@ -199,6 +199,7 @@
             // ControlesGuardarImagen
             // 
             this.ControlesGuardarImagen.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ControlesGuardarImagen.Controls.Add(this.button1);
             this.ControlesGuardarImagen.Controls.Add(this.lblControlesGuardarImagen);
             this.ControlesGuardarImagen.Controls.Add(this.txtCodigoPlaca);
             this.ControlesGuardarImagen.Controls.Add(this.btnAgregar);
@@ -206,6 +207,16 @@
             this.ControlesGuardarImagen.Name = "ControlesGuardarImagen";
             this.ControlesGuardarImagen.Size = new System.Drawing.Size(348, 98);
             this.ControlesGuardarImagen.TabIndex = 77;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(10, 61);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 33);
+            this.button1.TabIndex = 79;
+            this.button1.Text = "Descartar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblControlesGuardarImagen
             // 
@@ -219,12 +230,11 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregar.BackgroundImage")));
             this.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(160, 56);
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Location = new System.Drawing.Point(137, 61);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(80, 40);
+            this.btnAgregar.Size = new System.Drawing.Size(113, 33);
             this.btnAgregar.TabIndex = 74;
             this.btnAgregar.Text = "Agregar placa";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -246,10 +256,9 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(74, 47);
+            this.btnSalir.Location = new System.Drawing.Point(22, 47);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(80, 40);
             this.btnSalir.TabIndex = 79;
@@ -267,13 +276,22 @@
             this.lblControlesSensorMovimiento.TabIndex = 78;
             this.lblControlesSensorMovimiento.Text = "Controles sensor de movimiento";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(19, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(182, 13);
+            this.label1.TabIndex = 78;
+            this.label1.Text = "Abrir  Imagen desde la base de datos";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // IdentificadorPlacas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1001, 606);
-            this.ControlBox = false;
             this.Controls.Add(this.panelSensorMovimiento);
             this.Controls.Add(this.ControlesGuardarImagen);
             this.Controls.Add(this.panelControlesCamara);
@@ -286,7 +304,7 @@
             this.MinimizeBox = false;
             this.Name = "IdentificadorPlacas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Identificador placas vehiculos      (Andres Camilo Gallego Lopez)";
+            this.Text = "Identificador placas vehiculos    ";
             this.Load += new System.EventHandler(this.IdentificadorPlacas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxORIGINAL)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxFILTRADO)).EndInit();
@@ -322,5 +340,7 @@
         private System.Windows.Forms.Label lblControlesSensorMovimiento;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
