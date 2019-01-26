@@ -12,8 +12,6 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,18 +54,21 @@
     <Reference Include="AForge.Vision">
       <HintPath>..\..\..\..\LibreriasDll\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.Vision.dll</HintPath>
     </Reference>
-    <Reference Include="Emgu.CV.UI, Version=3.4.1.2976, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EMGU.CV.3.4.1.2976\lib\net35\Emgu.CV.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Emgu.CV.World, Version=3.4.1.2976, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EMGU.CV.3.4.1.2976\lib\net35\Emgu.CV.World.dll</HintPath>
-    </Reference>
     <Reference Include="LibConexionBD">
-      <HintPath>..\..\..\Loterias_Suerte\Loterias_Suerte\bin\Debug\LibConexionBD.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\DesarrolloSoftware\Recursos Desarrollo Software\LibConexionBD\LibConexionBD\bin\Debug\LibConexionBD.dll</HintPath>
     </Reference>
-    <Reference Include="openalpr-net, Version=2.3.0.0, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="LibLlenarCombos">
+      <HintPath>..\..\..\..\..\..\..\..\DesarrolloSoftware\Recursos Desarrollo Software\LibLlenarCombos\LibLlenarCombos\bin\Debug\LibLlenarCombos.dll</HintPath>
+    </Reference>
+    <Reference Include="LibLlenarGrids">
+      <HintPath>..\..\..\..\..\..\..\..\DesarrolloSoftware\Recursos Desarrollo Software\LibLlenarGrids\LibLlenarGrids\bin\Debug\LibLlenarGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="LibParametros">
+      <HintPath>..\..\..\..\..\..\..\..\DesarrolloSoftware\Recursos Desarrollo Software\LibParametros\LibParametros\bin\Debug\LibParametros.dll</HintPath>
+    </Reference>
+    <Reference Include="openalpr-net, Version=2.3.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\software3\openalpr_manual_demo-master\TestOpenAlpr\bin\Debug\openalpr-net.dll</HintPath>
+      <HintPath>..\..\..\OpenProyecto\openalpr_32\openalpr-net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -80,28 +81,80 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="ZedGraph, Version=5.1.7.430, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
-      <HintPath>..\packages\ZedGraph.5.1.7\lib\net35-Client\ZedGraph.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\ConexionBD.cs" />
-    <Compile Include="Clases\Program.cs" />
-    <Compile Include="Formularios\IdentificadorPlacas.cs">
+    <Compile Include="Clases\clsDatos.cs" />
+    <Compile Include="Clases\clsDatosPropietarios.cs" />
+    <Compile Include="Clases\clsProgram.cs" />
+    <Compile Include="Clases\clsUsuario.cs" />
+    <Compile Include="Consultas\ctaBuscarEntradas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\IdentificadorPlacas.Designer.cs">
-      <DependentUpon>IdentificadorPlacas.cs</DependentUpon>
+    <Compile Include="Consultas\ctaBuscarEntradas.Designer.cs">
+      <DependentUpon>ctaBuscarEntradas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ctaBuscarEntradasSalidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ctaBuscarEntradasSalidas.Designer.cs">
+      <DependentUpon>ctaBuscarEntradasSalidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ctaDatosPropietarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ctaDatosPropietarios.Designer.cs">
+      <DependentUpon>ctaDatosPropietarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmBuscarDatosPropietarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmBuscarDatosPropietarios.Designer.cs">
+      <DependentUpon>frmBuscarDatosPropietarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmIdentificadorPlacas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmIdentificadorPlacas.Designer.cs">
+      <DependentUpon>frmIdentificadorPlacas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\IdentificadorPlacas.resx">
-      <DependentUpon>IdentificadorPlacas.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\ctaBuscarEntradas.resx">
+      <DependentUpon>ctaBuscarEntradas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ctaBuscarEntradasSalidas.resx">
+      <DependentUpon>ctaBuscarEntradasSalidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ctaDatosPropietarios.resx">
+      <DependentUpon>ctaDatosPropietarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmBuscarDatosPropietarios.resx">
+      <DependentUpon>frmBuscarDatosPropietarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmIdentificadorPlacas.resx">
+      <DependentUpon>frmIdentificadorPlacas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,22 +169,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="License-LGPL.txt" />
+    <Content Include="Resources\Aceptar2.png" />
     <Content Include="Resources\BOTON.gif" />
     <None Include="Resources\Boton.jpg" />
     <Content Include="Resources\BOTON1.gif" />
     <Content Include="Resources\BOTON2.gif" />
     <Content Include="Resources\BOTON21.gif" />
+    <Content Include="Resources\Cancelar.png" />
+    <Content Include="Resources\Placa1.jpg" />
     <Content Include="Resources\salir.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\EMGU.CV.3.4.1.2976\build\EMGU.CV.targets" Condition="Exists('..\packages\EMGU.CV.3.4.1.2976\build\EMGU.CV.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\EMGU.CV.3.4.1.2976\build\EMGU.CV.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EMGU.CV.3.4.1.2976\build\EMGU.CV.targets'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

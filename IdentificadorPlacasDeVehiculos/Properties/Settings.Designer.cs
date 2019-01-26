@@ -28,9 +28,9 @@ namespace IdentificadorPlacasDeVehiculos.Properties {
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-I7I5QJJ\\SQLEXPRESS;Initial Catalog=ReconocimienoPlacasVehicul" +
             "os;Integrated Security=True")]
-        public string sqlString {
+        public string ReconocimienoPlacasVehiculosConnectionString {
             get {
-                return ((string)(this["sqlString"]));
+                return ((string)(this["ReconocimienoPlacasVehiculosConnectionString"]));
             }
         }
     }
