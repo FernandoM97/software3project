@@ -119,7 +119,7 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
                 CheckForIllegalCrossThreadCalls = false; //Permite que se escriba en las etiquetas durante el Thread video_NewFrame
                 this.Location = new System.Drawing.Point(this.Location.X, 0); //Situa el recuadro parte superior de la pantalla
             }
-            cbbCamaras.SelectedIndex = 1;
+            cbbCamaras.SelectedIndex = Dispositivos1.Count - 1;
             //lector placa
             PictureBoxORIGINAL.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBoxFILTRADO.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -173,10 +173,18 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
 
                     if (results.Plates.Count > 0)
                     {
-                        txtCodigoPlaca.Text = results.Plates[0].BestPlate.Characters;
-                        txtCodigoPlaca.ForeColor = Color.Yellow;
-                        PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
-                        PictureBoxFILTRADO.Image = imagenFiltrada;
+                        var placa = results.Plates[0].BestPlate.Characters;
+                        if(placa.Length == 6)
+                        {
+                            txtCodigoPlaca.Text = placa;
+                            txtCodigoPlaca.ForeColor = Color.Yellow;
+                            PictureBoxORIGINAL.Image = imagenOriginal; // Proyecta las imagenes real
+                            PictureBoxFILTRADO.Image = imagenFiltrada;
+                            btnDetenerCaptura_Click(null, null);
+                            return;
+                        }
+                        
+
                     }
                    txtCodigoPlaca.Text = "";
                 }
@@ -199,7 +207,9 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
 
         private void btnDetenerCaptura_Click(object sender, EventArgs e)
         {
-            FuenteDeVideo1.Stop();
+            FuenteDeVideo1.SignalToStop();
+            videoSourcePlayerDMovimiento.SignalToStop();
+
         }
         private void btnIniciarDetenccion_Click(object sender, EventArgs e)
         {
