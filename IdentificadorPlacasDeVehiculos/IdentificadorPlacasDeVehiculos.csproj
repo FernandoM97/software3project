@@ -85,6 +85,7 @@
   <ItemGroup>
     <Compile Include="Clases\clsDatos.cs" />
     <Compile Include="Clases\clsDatosPropietarios.cs" />
+    <Compile Include="Clases\clsMetodos.cs" />
     <Compile Include="Clases\clsProgram.cs" />
     <Compile Include="Clases\clsUsuario.cs" />
     <Compile Include="Consultas\ctaBuscarEntradas.cs">
@@ -179,7 +180,9 @@
     <Content Include="Resources\Placa1.jpg" />
     <Content Include="Resources\salir.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
