@@ -13,7 +13,7 @@ namespace IdentificadorPlacasDeVehiculos.Clases
         private static ConexionBD conexion = new ConexionBD("Parametros.xml");
         public static string Mensaje { get { return mensaje; } }
         public static bool ValidarUsuario(string usuario, string clave)
-        {
+        { 
             if (!conexion.AbrirConexion())
             {
                 mensaje = conexion.Error;
