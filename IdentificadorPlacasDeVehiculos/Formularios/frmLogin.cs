@@ -52,5 +52,10 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
                 MessageBox.Show(clsDatos.Mensaje);
             }
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

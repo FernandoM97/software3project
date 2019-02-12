@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Parametros>
+  <Servidor>DESKTOP-4MPNIMO\SQLEXPRESS</Servidor>
+  <BaseDatos>ReconocimienoPlacasVehiculos</BaseDatos>
+  <Usuario>sa</Usuario>
+  <Clave>admin123</Clave>
+  <SeguridadIntegrada>True</SeguridadIntegrada>
+</Parametros>

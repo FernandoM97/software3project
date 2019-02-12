@@ -35,40 +35,40 @@
   <ItemGroup>
     <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\AFORGE COLOR\AFORGE DETECCION SEGUIMIENTO\bin\Debug\AForge.dll</HintPath>
+      <HintPath>LogicResources\AForge.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Controls">
-      <HintPath>..\..\..\..\LibreriasDll\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.Controls.dll</HintPath>
+      <HintPath>LogicResources\AForge.Controls.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\LibreriasDll\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.Imaging.dll</HintPath>
+      <HintPath>LogicResources\AForge.Imaging.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\LibreriasDll\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.Video.dll</HintPath>
+      <HintPath>LogicResources\AForge.Video.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video.DirectShow">
-      <HintPath>..\..\..\..\LibreriasDll\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.Video.DirectShow.dll</HintPath>
+      <HintPath>LogicResources\AForge.Video.DirectShow.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Vision">
-      <HintPath>..\..\..\..\LibreriasDll\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.Vision.dll</HintPath>
+      <HintPath>LogicResources\AForge.Vision.dll</HintPath>
     </Reference>
     <Reference Include="LibConexionBD">
-      <HintPath>..\..\..\..\..\..\..\..\DesarrolloSoftware\Recursos Desarrollo Software\LibConexionBD\LibConexionBD\bin\Debug\LibConexionBD.dll</HintPath>
+      <HintPath>LogicResources\LibConexionBD.dll</HintPath>
     </Reference>
     <Reference Include="LibLlenarCombos">
-      <HintPath>..\..\..\..\..\..\..\..\DesarrolloSoftware\Recursos Desarrollo Software\LibLlenarCombos\LibLlenarCombos\bin\Debug\LibLlenarCombos.dll</HintPath>
+      <HintPath>LogicResources\LibLlenarCombos.dll</HintPath>
     </Reference>
     <Reference Include="LibLlenarGrids">
-      <HintPath>..\..\..\..\..\..\..\..\DesarrolloSoftware\Recursos Desarrollo Software\LibLlenarGrids\LibLlenarGrids\bin\Debug\LibLlenarGrids.dll</HintPath>
+      <HintPath>LogicResources\LibLlenarGrids.dll</HintPath>
     </Reference>
     <Reference Include="LibParametros">
-      <HintPath>..\..\..\..\..\..\..\..\DesarrolloSoftware\Recursos Desarrollo Software\LibParametros\LibParametros\bin\Debug\LibParametros.dll</HintPath>
+      <HintPath>LogicResources\LibParametros.dll</HintPath>
     </Reference>
     <Reference Include="openalpr-net, Version=2.3.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OpenProyecto\openalpr_32\openalpr-net.dll</HintPath>
+      <HintPath>LogicResources\openalpr-net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -179,7 +179,9 @@
     <Content Include="Resources\Placa1.jpg" />
     <Content Include="Resources\salir.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="LogicResources\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

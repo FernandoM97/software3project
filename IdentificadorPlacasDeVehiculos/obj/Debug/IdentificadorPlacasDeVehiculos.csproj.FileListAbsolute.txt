@@ -1,0 +1,108 @@
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe.config
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csprojResolveAssemblyReference.cache
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.IdentificadorPlacas.resources
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Properties.Resources.resources
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csproj.GenerateResource.Cache
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.pdb
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Controls.dll
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Video.dll
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.dll
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Imaging.dll
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Math.dll
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Controls.xml
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Video.xml
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Imaging.xml
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Math.xml
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.exe
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.pdb
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Video.DirectShow.dll
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Video.DirectShow.xml
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Vision.dll
+c:\users\luis gallego\documents\visual studio 2015\Projects\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Vision.xml
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe.config
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.pdb
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\bin\Debug\LibConexionBD.dll
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\bin\Debug\openalpr-net.dll
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\bin\Debug\LibParametros.dll
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csprojResolveAssemblyReference.cache
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.IdentificadorPlacas.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Properties.Resources.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csproj.GenerateResource.Cache
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos - copia\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.pdb
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe.config
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.pdb
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe.config
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.pdb
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibConexionBD.dll
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibLlenarCombos.dll
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibLlenarGrids.dll
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibParametros.dll
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\openalpr-net.dll
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibConexionBD.pdb
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibLlenarCombos.pdb
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibLlenarGrids.pdb
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibParametros.pdb
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csprojResolveAssemblyReference.cache
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaBuscarEntradas.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaBuscarEntradasSalidas.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaDatosPropietarios.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.frmBuscarDatosPropietarios.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmPrincipal.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmIdentificadorPlacas.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmLogin.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Properties.Resources.resources
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csproj.GenerateResource.Cache
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\LUIS GALLEGO\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.pdb
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe.config
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.pdb
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.pdb
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibConexionBD.pdb
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibLlenarCombos.pdb
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibLlenarGrids.pdb
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibParametros.pdb
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csprojResolveAssemblyReference.cache
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaBuscarEntradas.resources
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaBuscarEntradasSalidas.resources
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaDatosPropietarios.resources
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.frmBuscarDatosPropietarios.resources
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmPrincipal.resources
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmIdentificadorPlacas.resources
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmLogin.resources
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Properties.Resources.resources
+C:\Users\Andres Camilo\Documents\Visual Studio 2015\Projects\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csproj.GenerateResource.Cache
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe.config
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\IdentificadorPlacasDeVehiculos.pdb
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Controls.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Imaging.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Video.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\AForge.Vision.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibConexionBD.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibLlenarCombos.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibLlenarGrids.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\LibParametros.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\bin\Debug\openalpr-net.dll
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csprojAssemblyReference.cache
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaBuscarEntradas.resources
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaBuscarEntradasSalidas.resources
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.ctaDatosPropietarios.resources
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Consultas.frmBuscarDatosPropietarios.resources
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmPrincipal.resources
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmIdentificadorPlacas.resources
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Formularios.frmLogin.resources
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.Properties.Resources.resources
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csproj.GenerateResource.cache
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.csproj.CopyComplete
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.exe
+C:\Users\Fernando Moreno\Desktop\Proyecto\ProyectoCamilo\IdentificadorPlacasDeVehiculos\IdentificadorPlacasDeVehiculos\obj\Debug\IdentificadorPlacasDeVehiculos.pdb

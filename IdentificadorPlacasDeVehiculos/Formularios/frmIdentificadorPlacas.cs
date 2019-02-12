@@ -187,7 +187,7 @@ namespace IdentificadorPlacasDeVehiculos.Formularios
                     blobs.MinHeight = 10; //Solo tomara las que tenga un tamaño determinado
                     blobs.MinWidth = 10; // Solo tomara las que tenga un tamaño determinado
                     blobs.ObjectsOrder = ObjectsOrder.Size; // Tomara el tamaño mayor 
-                    blobs.ProcessImage(imageng); // Ejecuta el clasificador
+                    blobs.ProcessImage(imageng); // Ejecuta el clasificador 
 
                     Rectangle[] arregloRetangulos = blobs.GetObjectsRectangles(); // Coleccion de Blobs pasados a rectangulos
                     if (arregloRetangulos.Length > 0)
